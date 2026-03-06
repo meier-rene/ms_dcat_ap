@@ -1,21 +1,23 @@
-id: https://w3id.org/NFDI4Chem/dcat-ms-ap
-name: dcat-ms-ap
-title: dcat-ms-ap
+id: https://w3id.org/NFDI4Chem/ms-dcat-ap
+name: ms-dcat-ap
+title: ms-dcat-ap
 description: |-
-  A dcat ap implementing the recommendations fo the MS MIChI.
+  A dcat ap implementing the recommendations for the MS MIChI.
 license: MIT
 see_also:
-  - https://NFDI4Chem.github.io/dcat-ms-ap
+  - https://NFDI4Chem.github.io/ms-dcat-ap
 prefixes:
   linkml: https://w3id.org/linkml/
   MS: http://purl.obolibrary.org/obo/MS_
-#  dcat_4c_ap: https://stroemphi.github.io/dcat-4C-ap/
-#  dcat_ap_plus: https://stroemphi.github.io/dcat-4C-ap/
+  chem_dcat_ap: https://w3id.org/nfdi-de/dcat-ap-plus/chemistry/
+  dcat_ap_plus: https://w3id.org/nfdi-de/dcat-ap-plus/
+  dcat: http://www.w3.org/ns/dcat#
+  CHMO: http://purl.obolibrary.org/obo/CHMO_
 
 imports:
   - linkml:types
   - dcat_ap_plus
-  - dcat_4c_ap
+  - chem_dcat_ap
 
 classes:
   MSAnalysisDataset:
